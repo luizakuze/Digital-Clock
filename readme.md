@@ -65,7 +65,7 @@ gradle run
 
 ![Alt text](imagens/diagrama.png)
 
-_ [Diagrama do projeto]() _
+_Diagrama UML feito em [mermaid](mermaid.md)_
 
 </div>
 
