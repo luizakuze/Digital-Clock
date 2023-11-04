@@ -18,6 +18,15 @@ _Display 7 segmentos_
 
 Esse projeto foi desenvolvido na parte inicial das aulas de Programação Orientada a Objetos (POO) na faculdade. Durante esse período, o foco principal foi compreender a divisão de responsabilidades entre as classes envolvidas, a fim de criar uma aplicação funcional e eficiente.
 
+## Demonstração 📷
+
+<div align="center">
+  
+
+<img src="https://github.com/luizakuze/Digital-Clock/assets/111708035/3087f62f-9f72-49ed-a141-c8a6a898ce2c" width="50%">
+
+</div>
+
 ## Objetivos 🎯
 
 - [x] Criar um relógio digital em Java que utilize 6 displays de 7 segmentos.
