@@ -25,6 +25,8 @@ Esse projeto foi desenvolvido na parte inicial das aulas de Programação Orient
 
 <img src="https://github.com/luizakuze/Digital-Clock/assets/111708035/3087f62f-9f72-49ed-a141-c8a6a898ce2c" width="50%">
 
+_Relógios iniciando em 12:34:59_
+
 </div>
 
 ## Objetivos 🎯
