@@ -1,7 +1,7 @@
 # Relógio Digital ⏰
 > Autora: Luiza Kuze <br>
 > Data: 24/10/2023 <br>
-> Projeto final de POO
+> Projeto inicial de POO
 
 ## Descrição 📌
 
