@@ -21,13 +21,15 @@ _Display 7 segmentos_
 
 - [x] Criar um relógio digital em Java que utilize 6 displays de 7 segmentos.
 
-- [x] Permitir que o usuário defina as coordenadas de posicionamento do relógio no canvas.
+- [x] Permitir que o usuário defina as coordenadas de posicionamento do relógio.
 
 - [x] Oferecer a opção de escolher o tamanho do relógio, variando de 1 a 3. Caso seja informado um tamanho inválido, coloca um relógio de tamanho 2 por padrão.
 
 - [x] Personalizar a cor do relógio digital. Caso sejam cores não implementadas no desenvolvimento, desenha um relógio branco por padrão.
 
 - [x] Inicializar o relógio com a hora, minutos e segundos especificados pelo usuário. Caso valores inválidos sejam fornecidos, o relógio começará às 00:00:00.
+
+- [x] Interface gráfica, o programa deve criar uma tela de desenho para visualizar o relógio. 
 
 ## Funcionamento 💻
 
