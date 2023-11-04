@@ -1,11 +1,11 @@
 # Relógio Digital ⏰
 > Autora: Luiza Kuze <br>
 > Data: 24/10/2023 <br>
-> Projeto inicial de POO
+> Projeto de POO
 
 ## Descrição 📌
 
-O projeto é uma aplicação de um relógio digital, composto por 6 displays de 7 segmentos. Cada display de 7 segmentos é um dispositivo eletrônico acessível que pode representar informações alfanuméricas, ativando ou desativando individualmente seus 7 segmentos. 
+É uma aplicação de um relógio digital, composto por 6 displays de 7 segmentos. Cada display de 7 segmentos é um dispositivo eletrônico acessível que pode representar informações alfanuméricas, ativando ou desativando individualmente seus 7 segmentos. 
 Para ilustrar, se quisermos mostrar o número 2 em um display de 7 segmentos, ativamos os segmentos A, B, G, E e D.
 
 <div align="center">
@@ -16,6 +16,7 @@ _Display 7 segmentos_
 
 </div>
 
+Esse projeto foi desenvolvido na parte inicial das aulas de Programação Orientada a Objetos (POO) na faculdade. Durante esse período, o foco principal foi compreender a divisão de responsabilidades entre as classes envolvidas, a fim de criar uma aplicação funcional e eficiente.
 
 ## Objetivos 🎯
 
@@ -100,7 +101,7 @@ Ao chegar na classe _**Segmento**_, cada segmento do display é desenhado como u
 _documentação do método filledPolygon_
 </div>
 
-É feito um cálculo das coordenadas, tendo como referência um ponto de partida definido pelo usuário, especificado por uma coordenada x e y iniciais. Além disso, o cálculo leva em consideração o tamanho do relógio escolhido, que pode variar entre 1, 2 ou 3. A grandeza desse cálculo está em manter uma proporção adequada ao desenhar relógios de diferentes tamanhos na tela. Isso garante que a representação gráfica seja consistente, independentemente do tamanho do relógio selecionado.
+É feito um cálculo das coordenadas, tendo como referência um ponto de partida definido pelo usuário, especificado por uma coordenada x e y iniciais. Além disso, o cálculo leva em consideração o tamanho do relógio escolhido, que pode variar entre 1, 2 ou 3. A maior dificuldade encontrada para o cálculo foi em manter uma proporção adequada ao desenhar relógios de diferentes tamanhos na tela, garante que a representação gráfica seja consistente, independentemente do tamanho do relógio selecionado.
 
 ## Licença 📜
 
