@@ -6,7 +6,6 @@
 ## Descrição 📌
 
 O projeto é uma aplicação de um relógio digital, composto por 6 displays de 7 segmentos. Cada display de 7 segmentos é um dispositivo eletrônico acessível que pode representar informações alfanuméricas, ativando ou desativando individualmente seus 7 segmentos. 
-
 Para ilustrar, se quisermos mostrar o número 2 em um display de 7 segmentos, ativamos os segmentos A, B, G, E e D.
 
 <div align="center">
@@ -41,7 +40,7 @@ git clone https://github.com/luizakuze/Digital-Clock
 # Acessar o diretório 
 cd Digital-Clock
 
-# Compilar o projeto
+# Compilar e executar o projeto
 ./gradlew run
 ```
 
@@ -55,11 +54,19 @@ git clone https://github.com/luizakuze/Digital-Clock
 # Acessar o diretório 
 cd Digital-Clock
 
-# Compilar o projeto
+# Compilar e executar o projeto
 gradle run
 ```
 
-## Diagrama UML 🌱
+## Implementação 📚
+
+### Gradle 📘
+
+Este projeto utiliza o sistema de construção Gradle para gerenciar as dependências e compilar o código-fonte!
+
+### Diagrama UML 📕
+
+O projeto respeita o encapsulamento de dados, responsabilidade única e divisão de responsabilidades! 
 
 <div align="center">
 
@@ -69,11 +76,7 @@ _Diagrama UML feito em [mermaid](mermaid.md)_
 
 </div>
 
-## Implementação 📚
-
-A fase de implementação envolveu aspectos essenciais como a representação dos segmentos, a atualização do tempo e a renderização gráfica. Abaixo estão alguns detalhes sobre:
-
-### Representação Gráfica 🧁
+### Representação Gráfica 📗
 
 Funciona por meio da biblioteca **_Algs4_**, uma biblioteca que oferece suporte para gráficos em 2D. Um grande suporte para o projeto ao utilizar a sua classe _**Draw**_! 
 
@@ -84,7 +87,7 @@ Ok, então é o seguinte passo a passo:
 1. Relógios são criados no método main da classe Principal.
 2. Esses relógios tem horários definidos pelo usuário, que são responsabilidade da classe Horario.
 3. Um relógio tem 6 displays, para representar horas, minutos e segundos. Assim, a responsabilidade de conectar o horário com os segmentos que aparecem é da classe Display.
-4. Os displays podem acender e apagar, além disso também são desenhados na tela para representar um relógio digital!
+4. Um display tem 7 segmentos, podem acender e apagar, além disso também são desenhados na tela para representar um relógio!
 
 Ao chegar na classe _**Segmento**_, cada segmento do display é desenhado como um polígono preenchido, utilizando o método _**filledPolygon**_ da classe _**Draw**_. Nessa etapa, é necessário um array de coordenadas x e y para desenhar um polígono.
 
@@ -95,25 +98,7 @@ Ao chegar na classe _**Segmento**_, cada segmento do display é desenhado como u
 _documentação do método filledPolygon_
 </div>
 
-A solução é o cálculo das coordenadas de acordo com uma coordenada x e y inicial. Porém, é necessário atenção ao lembrar que os relógios pode possuir tamanhos diferentes. 
-
-Ou seja, o cálculo das coordenadas foi realizado com base no tamanho do relógio escolhido (1, 2 ou 3). 
-
-Além disso, um relógio pode possuir diferentes cores, então o polígono deve ser preenchido com a cor indicada pelo usuário.
-
-As duas questões anteriores (tamanho e cor) do relógio são resolvidas com o fator de tamanho e fator de cor. 
-
-<div align="center">
-
-![Alt text](imagens/fatorT.png)
-
-_método da classe RelogioDigital_
-
-![Alt text](imagens/fatorC.png)
-
-_método da classe Segmento_
-
-</div>
+um cálculo cuidadoso das coordenadas, tendo como referência um ponto de partida definido pelo usuário, especificado por uma coordenada x e y iniciais. Além disso, o cálculo leva em consideração o tamanho do relógio escolhido, que pode variar entre 1, 2 ou 3. A grandeza desse cálculo está em manter uma proporção adequada ao desenhar relógios de diferentes tamanhos na tela. Isso garante que a representação gráfica seja consistente, independentemente do tamanho do relógio selecionado.
 
 ## Licença 📜
 
