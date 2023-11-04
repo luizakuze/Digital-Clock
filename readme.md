@@ -98,7 +98,7 @@ Ao chegar na classe _**Segmento**_, cada segmento do display é desenhado como u
 _documentação do método filledPolygon_
 </div>
 
-um cálculo cuidadoso das coordenadas, tendo como referência um ponto de partida definido pelo usuário, especificado por uma coordenada x e y iniciais. Além disso, o cálculo leva em consideração o tamanho do relógio escolhido, que pode variar entre 1, 2 ou 3. A grandeza desse cálculo está em manter uma proporção adequada ao desenhar relógios de diferentes tamanhos na tela. Isso garante que a representação gráfica seja consistente, independentemente do tamanho do relógio selecionado.
+É feito um cálculo das coordenadas, tendo como referência um ponto de partida definido pelo usuário, especificado por uma coordenada x e y iniciais. Além disso, o cálculo leva em consideração o tamanho do relógio escolhido, que pode variar entre 1, 2 ou 3. A grandeza desse cálculo está em manter uma proporção adequada ao desenhar relógios de diferentes tamanhos na tela. Isso garante que a representação gráfica seja consistente, independentemente do tamanho do relógio selecionado.
 
 ## Licença 📜
 
