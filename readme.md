@@ -114,6 +114,12 @@ _documentação do método filledPolygon_
 
 É feito um cálculo das coordenadas, tendo como referência um ponto de partida definido pelo usuário, especificado por uma coordenada x e y iniciais. Além disso, o cálculo leva em consideração o tamanho do relógio escolhido, que pode variar entre 1, 2 ou 3. A maior dificuldade encontrada para o cálculo foi em manter uma proporção adequada ao desenhar relógios de diferentes tamanhos na tela, garante que a representação gráfica seja consistente, independentemente do tamanho do relógio selecionado.
 
+## Ideias futuras 🚀
+
+- [ ] **Relógios Coloridos:** Adicionar a capacidade de personalizar a cor individual dos displays, permitindo uma ampla variedade de combinações coloridas.
+
+- [ ] **Relógio com Data:** Implementar uma funcionalidade de data que automaticamente avança para o próximo dia quando o relógio marca meia-noite.
+
 ## Licença 📜
 
 Este projeto é licenciado sob a [MIT License](https://github.com/luizakuze/Contabilizador-Financeiro/blob/main/license)
