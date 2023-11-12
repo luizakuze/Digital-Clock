@@ -96,7 +96,7 @@ Funciona por meio da biblioteca **_Algs4_**, uma biblioteca que oferece suporte 
 
 Na classe principal, um dos seus atributos é do tipo _**Draw**_ e ao instanciar um objeto dessa classe principal, criamos uma "tela de desenho" que será passada ao longo das classes e métodos do projeto.
 
-Ok, então é o seguinte passo a passo:
+É o seguinte "passo a passo":
 
 1. Relógios são criados no método main da classe Principal.
 2. Esses relógios tem horários definidos pelo usuário, que são responsabilidade da classe Horario.
@@ -104,13 +104,6 @@ Ok, então é o seguinte passo a passo:
 4. Um display tem 7 segmentos, podem acender e apagar, além disso também são desenhados na tela para representar um relógio!
 
 Ao chegar na classe _**Segmento**_, cada segmento do display é desenhado como um polígono preenchido, utilizando o método _**filledPolygon**_ da classe _**Draw**_. Nessa etapa, é necessário um array de coordenadas x e y para desenhar um polígono.
-
-<div align="center">
-
-![Alt text](imagens/algs4.png)
-
-_documentação do método filledPolygon_
-</div>
 
 É feito um cálculo das coordenadas, tendo como referência um ponto de partida definido pelo usuário, especificado por uma coordenada x e y iniciais. Além disso, o cálculo leva em consideração o tamanho do relógio escolhido, que pode variar entre 1, 2 ou 3. A maior dificuldade encontrada para o cálculo foi em manter uma proporção adequada ao desenhar relógios de diferentes tamanhos na tela, garante que a representação gráfica seja consistente, independentemente do tamanho do relógio selecionado.
 
